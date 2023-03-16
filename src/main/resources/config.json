@@ -1,0 +1,24 @@
+{
+  "name": "default",
+  "accountName": "qauattraces01",
+  "bearerToken": "",
+  "accessId": "",
+  "accessKey": "",
+  "hostGroups": "pundev-psr-hosts",
+  "lmotelEndpoint": "http://apmcollector.punedev-localdev:4317",
+  "ingestionRunForInMinutes": "45",
+  "isOtelRunInDebug": true,
+  "otelImage": "logicmonitor/lmotel:latest",
+  "nbMaxTracingTagsNumber": 500,
+  "nbMockApplicationMax": 2,
+  "isRequiredToInterlink": true,
+  "tenantsCompanies": [
+    "tango",
+    "charlie",
+    "john",
+    "doe",
+    "alpha",
+    "theta",
+    "gamma"
+  ]
+}

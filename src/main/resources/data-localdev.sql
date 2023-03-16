@@ -1,0 +1,11 @@
+INSERT INTO apps (id, lang, name, port, namespace, image, links) VALUES (1,'java','contentsecuritypolicyservice','12001','punedev','apmloadgen:1.18','5');
+INSERT INTO apps (id, lang, name, port, namespace, image, links) VALUES (2,'java','customersupportservice','12002','punedev','apmloadgen:1.18','5');
+INSERT INTO apps (id, lang, name, port, namespace, image, links) VALUES (3,'java','deliveryreporter','12003','punedev','apmloadgen:1.18','5');
+INSERT INTO apps (id, lang, name, port, namespace, image, links) VALUES (4,'java','redis','12004','punedev','redis:latest','5');
+INSERT INTO apps (id, lang, name, port, namespace, image, links) VALUES (5,'java','emailservice','12005','punedev','apmloadgen:1.18','5');
+INSERT INTO apps (id, lang, name, port, namespace, image, links) VALUES (6,'java','faulttoleranceattackservice','12006','punedev','apmloadgen:1.18','5');
+INSERT INTO apps (id, lang, name, port, namespace, image, links) VALUES (7,'java','feedbacksystem','12007','punedev','apmloadgen:1.18','5');
+INSERT INTO apps (id, lang, name, port, namespace, image, links) VALUES (8,'python','securityservice','12008','punedev','apmloadgen:1.18','5');
+INSERT INTO apps (id, lang, name, port, namespace, image, links) VALUES (9,'java','heimdalladminservice','12009','punedev','apmloadgen:1.18','5');
+INSERT INTO apps (id, lang, name, port, namespace, image, links) VALUES (10,'java','memcached','13001','punedev','memcached:latest','5');
+INSERT INTO apps (id, lang, name, port, namespace, image, links) VALUES (11,'java','faultdetectionservice','13002','punedev','apmloadgen:1.18','5');
