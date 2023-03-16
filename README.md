@@ -19,9 +19,9 @@
 ## Steps to follow - (you shall have kubectl / aws / docker clis knows each other, and working jdk / mvn utility too)
 ```bash
 git clone gsmahajan/apm-tracing-loadgen
-```x
+```
 
-* 2.a cat ~/.lmenv # 
+* 2.a cat ~/.lmenv # chmod 755 ~/.lmenv
 ```bash
 # ! /bin/bash
 
@@ -37,7 +37,7 @@ export LOGICMONITOR_ACCESS_KEY=<logicmonitor-collector-otel-accessKey>"
 export OTEL_EXPORTER_OTLP_ENDPOINT="https://$(echo "$LOGICMONITOR_ACCOUNT").logicmonitor.com/santaba/rest/api"
 
 ```
-* 2.b cat ~/.aws_creds.sh # new file
+* 2.b cat ~/.aws_creds.sh # new file chmod 755 ~/.aws_creds.sh # Be careful here
 
 ```bash
 
