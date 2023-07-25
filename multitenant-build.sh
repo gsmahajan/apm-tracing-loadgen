@@ -12,9 +12,9 @@
 
 #./clean-slate.sh
 
-for company in localdev; do 
+for company in localdev barbara texastech whutechai; do 
 
- # run this in backgroud if using for multiple companies 
+ # run this in backgroud if using for multiple companies, this produces number of services per company in the larger umbrella.
  ./build-eks.sh $company   
 
 done
