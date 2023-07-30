@@ -1,7 +1,7 @@
 #! /bin/bash
 
 
-AWS_ACCOUNT_ID="148849679107"
+AWS_ACCOUNT_ID=""
 AWS_ECR_LINK=$(echo $AWS_ACCOUNT_ID".dkr.ecr.us-west-2.amazonaws.com")
 
 init_aws(){
@@ -13,7 +13,7 @@ init_aws(){
 aws eks --region us-west-2 update-kubeconfig --name LMAPMLoadGenerateTopology
 
 # connect docker cli to eks clusters registry
-aws ecr get-login-password --region us-west-2 | docker login --username AWS --password-stdin $AWS_ECR_LINK
+aws ecr get-login-password --region ap-southeast-1 | docker login --username AWS --password-stdin $AWS_ECR_LINK
 
 }
 
